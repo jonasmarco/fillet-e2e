@@ -1,0 +1,29 @@
+.Button {
+  align-items: center;
+  border-radius: px(4);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  font-weight: 600;
+  gap: px(12);
+  height: px(50);
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  @include font-size(16);
+
+  * {
+    transition: all 0.3s ease-in-out;
+  }
+
+  &--variant-primary {
+    background-color: $fillet-brown;
+    color: $white;
+
+    &:hover,
+    &:focus {
+      background-color: $fillet-brown-darken;
+      color: $white;
+      gap: px(5);
+    }
+  }
+}

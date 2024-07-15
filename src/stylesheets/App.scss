@@ -1,0 +1,23 @@
+@import '~reset-css';
+@import './Fonts.scss';
+
+* {
+  outline: none;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#yield {
+  height: 100%;
+}
+
+body {
+  background: $background;
+
+  * {
+    font-family: 'Ubuntu Sans', sans-serif;
+  }
+}

@@ -1,0 +1,19 @@
+.FormInput {
+  background-color: $background-darken;
+  border: none;
+  border-bottom: px(4) solid transparent;
+  border-radius: px(4);
+  color: $fillet-brown;
+  font-weight: 600;
+  height: px(50);
+  text-indent: px(10);
+  transition: all 0.3s ease-in-out;
+  @include font-size(16);
+  @include placeholder($fillet-brown);
+
+  &:focus,
+  &:hover,
+  &:active {
+    border-bottom-color: $active;
+  }
+}

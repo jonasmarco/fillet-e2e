@@ -1,12 +1,12 @@
 # fillet-e2e + Cypress
 
-## Descrição
+## Description
 
-Este projeto contém testes end-to-end (E2E) para as aplicações da Fillet, utilizando Cypress. Os testes garantem que a funcionalidade da aplicação está intacta e funcionando conforme esperado.
+This project contains end-to-end (E2E) tests for Fillet's applications, using Cypress. The tests ensure that the functionality of the application is intact and working as expected.
 
 ## Getting Started
 
-### Requisitos
+### Requirements
 
 - Node.js (versão 14 ou superior)
 - Yarn (versão 1.x ou 2.x)
